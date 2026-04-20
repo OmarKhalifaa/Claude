@@ -1,0 +1,87 @@
+/* VF Design Foundations — Design Tokens */
+
+:root {
+  /* ── Color: Brand ───────────────────────────────────────── */
+  --vf-color-brand-50:  #fff1f1;
+  --vf-color-brand-100: #ffe1e1;
+  --vf-color-brand-500: #e63030;
+  --vf-color-brand-600: #cc2020;
+
+  /* ── Color: Neutral ─────────────────────────────────────── */
+  --vf-color-neutral-0:   #ffffff;
+  --vf-color-neutral-50:  #f8f8f9;
+  --vf-color-neutral-100: #f0f0f2;
+  --vf-color-neutral-200: #e2e2e7;
+  --vf-color-neutral-400: #a0a0ab;
+  --vf-color-neutral-600: #52525e;
+  --vf-color-neutral-800: #1c1c22;
+  --vf-color-neutral-900: #0f0f13;
+
+  /* ── Color: Surface ─────────────────────────────────────── */
+  --vf-color-surface-base:    var(--vf-color-neutral-0);
+  --vf-color-surface-subtle:  var(--vf-color-neutral-50);
+  --vf-color-surface-overlay: rgba(15, 15, 19, 0.55);
+
+  /* ── Color: Text ────────────────────────────────────────── */
+  --vf-color-text-primary:   var(--vf-color-neutral-800);
+  --vf-color-text-secondary: var(--vf-color-neutral-600);
+  --vf-color-text-inverse:   var(--vf-color-neutral-0);
+  --vf-color-text-muted:     var(--vf-color-neutral-400);
+
+  /* ── Color: Border ──────────────────────────────────────── */
+  --vf-color-border-subtle: var(--vf-color-neutral-200);
+  --vf-color-border-muted:  var(--vf-color-neutral-100);
+
+  /* ── Typography: Font Family ────────────────────────────── */
+  --vf-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* ── Typography: Size ───────────────────────────────────── */
+  --vf-font-size-xs:   0.6875rem; /* 11px */
+  --vf-font-size-sm:   0.75rem;   /* 12px */
+  --vf-font-size-base: 0.875rem;  /* 14px */
+  --vf-font-size-md:   1rem;      /* 16px */
+  --vf-font-size-lg:   1.125rem;  /* 18px */
+
+  /* ── Typography: Weight ─────────────────────────────────── */
+  --vf-font-weight-regular:  400;
+  --vf-font-weight-medium:   500;
+  --vf-font-weight-semibold: 600;
+
+  /* ── Typography: Line Height ────────────────────────────── */
+  --vf-line-height-tight:  1.25;
+  --vf-line-height-snug:   1.375;
+  --vf-line-height-base:   1.5;
+
+  /* ── Spacing ────────────────────────────────────────────── */
+  --vf-space-1: 0.25rem;  /* 4px  */
+  --vf-space-2: 0.5rem;   /* 8px  */
+  --vf-space-3: 0.75rem;  /* 12px */
+  --vf-space-4: 1rem;     /* 16px */
+  --vf-space-5: 1.25rem;  /* 20px */
+  --vf-space-6: 1.5rem;   /* 24px */
+  --vf-space-8: 2rem;     /* 32px */
+  --vf-space-10: 2.5rem;  /* 40px */
+  --vf-space-12: 3rem;    /* 48px */
+
+  /* ── Border Radius ──────────────────────────────────────── */
+  --vf-radius-sm:   0.25rem;  /* 4px  */
+  --vf-radius-md:   0.5rem;   /* 8px  */
+  --vf-radius-lg:   0.75rem;  /* 12px */
+  --vf-radius-xl:   1rem;     /* 16px */
+  --vf-radius-full: 9999px;
+
+  /* ── Shadow ─────────────────────────────────────────────── */
+  --vf-shadow-xs: 0 1px 2px rgba(15, 15, 19, 0.05);
+  --vf-shadow-sm: 0 1px 3px rgba(15, 15, 19, 0.08), 0 1px 2px rgba(15, 15, 19, 0.04);
+  --vf-shadow-md: 0 4px 12px rgba(15, 15, 19, 0.08), 0 2px 4px rgba(15, 15, 19, 0.04);
+  --vf-shadow-lg: 0 8px 24px rgba(15, 15, 19, 0.10), 0 4px 8px rgba(15, 15, 19, 0.06);
+
+  /* ── Transition ─────────────────────────────────────────── */
+  --vf-transition-fast:   150ms ease;
+  --vf-transition-base:   220ms ease;
+  --vf-transition-slow:   350ms ease;
+
+  /* ── Z-index ────────────────────────────────────────────── */
+  --vf-z-overlay: 10;
+  --vf-z-tooltip: 20;
+}
